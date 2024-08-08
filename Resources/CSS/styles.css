@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(-45deg, #FFEFFD, #fff7ef);
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.banner{
+    object-fit: cover;
+    object-position: center right;
+    width: 200px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.title{
+    color: #EE5626;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.pageName{
+    text-align: center;
+}
+
+.bit-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.entryname{
+    font-weight: bold;
+    background: -webkit-linear-gradient(90deg, #ffa600, #d60dd6);
+    background: linear-gradient(180deg, #ffa600, #d60dd6);      
+    -webkit-background-clip: text; 
+    background-clip: text; /*Compatibilidad adicional en navegadores basados en WebKit*/
+    color: transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dateentry{ /*still working on it. It must be below name entry*/
+    color: #8b96f8;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.body-text{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.figmalink{
+    color: #EE5626;
+}
+
+.figma-text{
+    text-align: left;
+}
+
+.links{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 10vh;
+}
+
