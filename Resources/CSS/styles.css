@@ -4,7 +4,7 @@ body{
     justify-content: center;
 }
 
-.banner{
+#banner{
     object-fit: cover;
     object-position: center right;
     width: 200px;
@@ -20,16 +20,17 @@ body{
     margin-bottom: 100px;
 }
 
-.pageName{
+#pageName{
     text-align: center;
+    height: fit-content;
 }
 
-.bit-title{
+#bit-title{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    height: 50vh;
-
+    height: fit-content;
+    text-align: center;
 }
 
 .entryname{
@@ -53,13 +54,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: fit-content;
+    margin: auto;
 }
 
-.body-text{
+#body-text{
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 8%;
 }
 
 .figmalink{
